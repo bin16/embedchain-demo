@@ -3,3 +3,4 @@ venv/
 db/
 pdf/
 data/
+__pycache__

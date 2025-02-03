@@ -1,13 +1,16 @@
+# https://docs.embedchain.ai/components/llms#ollama
 llm:
   provider: ollama
   config:
-    model: 'deepseek-r1:latest'
-    # model: 'llama3.2:latest'
+    # model: 'deepseek-r1:latest'
+    model: 'llama3.2:latest'
     temperature: 0.5
     top_p: 1
     stream: true
     base_url: 'http://localhost:11434'
 
+# https://docs.embedchain.ai/components/embedding-models#ollama
+# https://ollama.com/blog/embedding-models
 embedder:
   provider: ollama
   config:
